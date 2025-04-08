@@ -132,6 +132,7 @@ def CheckOffset():
 
         except Exception as e:
             print(f"Failed to update configuration file: {e}")
+            print(f"Test")
             error_logger.error(f"Failed to update configuration file: {e}")
 
 if __name__ == "__main__":
