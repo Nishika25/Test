@@ -9,6 +9,7 @@ import sys
 
 file_path = "checkOffset.csv"
 print(f"Trying to read from Update: {file_path}")
+print("Hello")
 
 logging.basicConfig(level=logging.INFO, format="%(asctime)s - %(levelname)s - %(message)s")
 success_logger = logging.getLogger('success_logger')
